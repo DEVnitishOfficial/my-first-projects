@@ -1,0 +1,161 @@
+style {  
+    font-family: 'Explora', cursive;
+    font-family: 'Noto Sans Adlam Unjoined', sans-serif;
+    font-family: 'Noto Serif', serif;
+    font-family: 'Padyakke Expanded One', cursive;
+    font-family: 'Playfair Display', serif;
+    
+    }
+
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+   font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: #edf1fd;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 2px 50px 0px 30px;
+}
+li{
+    list-style: none;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+
+
+button{
+    background-color: rgb(18, 155, 155);
+    padding: 4px 10px;
+    cursor: pointer;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-weight: 600;
+    width: fit-content;
+}
+button:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+
+}
+nav {
+    display: flex;
+    width: 100%;
+align-items: center;
+    justify-content: space-around;
+
+}
+
+ nav.logo{
+    font-weight: 700;
+    font-size: 30px;
+    height: 50%;
+    width: 50%;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    font-weight: 500;
+}
+nav ul li {
+    text-decoration: underline;
+    font-weight: 900;
+}
+.search-field{
+    display: flex;
+    gap: 35px;
+}
+input {
+    padding: 4px 10px;
+}
+.hero-section{
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+
+}
+.hero-section-left h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+.hero-section-left h1  span {
+color: rgb(18, 155, 155);
+font-weight: 900;
+font-size: 2.5 rem;
+}
+
+.hero-section-left p {
+    margin-top: 30px;
+    font-weight: 500px;
+
+    }
+    .hero-section-left p span {
+        font-weight: 700px;
+        font-size: 20px;
+        color: rgb(18, 155, 155);
+        
+        }
+.hero-section-right{
+    display: flex;
+    flex-direction: column;
+    width: 160%;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+
+}
+.hero-section-right-btns {
+    display: flex;
+    align-items: center;
+    margin-left: 50%;
+    gap: 30px;
+
+}
+.hero-section-right img{
+    margin-left: 50%;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    align-items: center;
+
+}
+footer{
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+    justify-content: space-around;
+}
+footer p {
+    font-weight: 900;
+}
+.design{
+    
+
+}
+.dekho{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    size: 200px;
+    margin-bottom: 20px;
+    margin-left: 200px;
+
+}
+.logo{
+    border-radius: 50%;
+    color: aqua;
+    background-color: aquamarine;
+}
